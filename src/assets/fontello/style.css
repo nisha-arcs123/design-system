@@ -1,0 +1,361 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?drj0f0');
+  src:  url('fonts/icomoon.eot?drj0f0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?drj0f0') format('truetype'),
+    url('fonts/icomoon.woff?drj0f0') format('woff'),
+    url('fonts/icomoon.svg?drj0f0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-access-type:before {
+  content: "\e93d";
+  color: #676879;
+  font-size: 22px;
+}
+.icon-alias-name:before {
+  content: "\e93e";
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.icon-app-name:before {
+  content: "\e93f";
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.icon-asset-name:before {
+  content: "\e940";
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.icon-business-owner:before {
+  content: "\e941";
+  color: #676879;
+  font-size: 22px;
+}
+.icon-Child-Asset:before {
+  content: "\e942";
+  color: #6d6d6d;
+  font-size: 21px;
+}
+.icon-domain-name:before {
+  content: "\e943";
+  color: #676879;
+  font-size: 21px;
+}
+.icon-entitlement:before {
+  content: "\e944";
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.icon-host-name:before {
+  content: "\e945";
+  color: #676879;
+  font-size: 22px;
+}
+.icon-identify-category:before {
+  content: "\e946";
+  color: #6d6d6d;
+  font-size: 21px;
+}
+.icon-identify-type:before {
+  content: "\e947";
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.icon-ip-address:before {
+  content: "\e948";
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.icon-is-priviledge:before {
+  content: "\e949";
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.icon-port:before {
+  content: "\e94a";
+  color: #676879;
+  font-size: 22px;
+}
+.icon-technical-owner:before {
+  content: "\e94b";
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.icon-Apps .path1:before {
+  content: "\e938";
+  color: rgb(255, 255, 255);
+}
+.icon-Apps .path2:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(103, 104, 121);
+}
+.icon-Apps .path3:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(103, 104, 121);
+}
+.icon-Apps .path4:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(103, 104, 121);
+}
+.icon-Notification:before {
+  content: "\e93c";
+  color: #676879;
+}
+.icon-Bookmark:before {
+  content: "\e937";
+  color: #6d6d6d;
+}
+.icon-fav-fill:before {
+  content: "\e932";
+  color: #ffcb00;
+}
+.icon-Pin-Fill:before {
+  content: "\e933";
+  color: #d83a52;
+}
+.icon-OneTime:before {
+  content: "\e934";
+  color: #bb3354;
+  font-size: 19px;
+}
+.icon-permanent:before {
+  content: "\e935";
+  color: #258750;
+  font-size: 12px;
+}
+.icon-TimeBased:before {
+  content: "\e936";
+  color: #ff642e;
+  font-size: 17px;
+}
+.icon-Active:before {
+  content: "\e92b";
+  color: #6d6d6d;
+  font-size: 21px;
+}
+.icon-database1:before {
+  content: "\e92c";
+  color: #6d6d6d;
+  font-size: 18px;
+}
+.icon-favorite:before {
+  content: "\e92d";
+  color: #6d6d6d;
+}
+.icon-Network_Device:before {
+  content: "\e92e";
+  color: #6d6d6d;
+  font-size: 20px;
+}
+.icon-Security:before {
+  content: "\e92f";
+  color: #6d6d6d;
+  font-size: 23px;
+}
+.icon-settings1:before {
+  content: "\e930";
+  color: #6d6d6d;
+}
+.icon-Web:before {
+  content: "\e931";
+  color: #6d6d6d;
+  font-size: 22px;
+}
+.icon-download:before {
+  content: "\e92a";
+}
+.icon-configured:before {
+  content: "\e91d";
+  color: #6d6d6d;
+}
+.icon-database:before {
+  content: "\e91e";
+  color: #6d6d6d;
+}
+.icon-filter_list:before {
+  content: "\e91f";
+  color: #6d6d6d;
+  font-size: 19px;
+}
+.icon-grade:before {
+  content: "\e920";
+  color: #6d6d6d;
+}
+.icon-infra .path1:before {
+  content: "\e921";
+  color: rgb(74, 178, 253);
+}
+.icon-infra .path2:before {
+  content: "\e922";
+  margin-left: -1.0888671875em;
+  color: rgb(243, 250, 255);
+}
+.icon-infra .path3:before {
+  content: "\e923";
+  margin-left: -1.0888671875em;
+  color: rgb(74, 178, 253);
+}
+.icon-infra .path4:before {
+  content: "\e924";
+  margin-left: -1.0888671875em;
+  color: rgb(243, 250, 255);
+}
+.icon-location:before {
+  content: "\e925";
+  color: #6d6d6d;
+}
+.icon-production:before {
+  content: "\e926";
+  color: #6d6d6d;
+}
+.icon-push_pin:before {
+  content: "\e927";
+  color: #6d6d6d;
+}
+.icon-settings:before {
+  content: "\e928";
+  color: #6d6d6d;
+}
+.icon-tenable:before {
+  content: "\e929";
+  color: #6d6d6d;
+}
+.icon-mail:before {
+  content: "\e918";
+  color: #6d6d6d;
+}
+.icon-sms:before {
+  content: "\e919";
+  color: #6d6d6d;
+}
+.icon-dialpad:before {
+  content: "\e91a";
+  color: #6d6d6d;
+}
+.icon-encrypted:before {
+  content: "\e91b";
+  color: #6d6d6d;
+}
+.icon-fingerprint:before {
+  content: "\e91c";
+  color: #6d6d6d;
+}
+.icon-visibility_off:before {
+  content: "\e916";
+  color: #6d6d6d;
+}
+.icon-visibility:before {
+  content: "\e917";
+  color: #6d6d6d;
+}
+.icon-target-right:before {
+  content: "\e912";
+  color: #6d6d6d;
+}
+.icon-trending:before {
+  content: "\e913";
+  color: #3B82F6;
+  font-size: 18px !important;
+}
+.icon-laptop:before {
+  content: "\e914";
+  color: #6d6d6d;
+}
+.icon-smartphone:before {
+  content: "\e915";
+  color: #6d6d6d;
+}
+.icon-arrow-left:before {
+  content: "\e911";
+  color: #676879;
+}
+.icon-star-full:before {
+  content: "\e90f";
+  color: #676879;
+}
+.icon-arrow-right:before {
+  content: "\e910";
+  color: #676879;
+}
+.icon-email:before {
+  content: "\e90e";
+  color: #676879;
+}
+.icon-sucess-check:before {
+  content: "\e90a";
+  color: #676879;
+}
+.icon-warning:before {
+  content: "\e90b";
+  color: #676879;
+}
+.icon-error:before {
+  content: "\e90c";
+  color: #676879;
+}
+.icon-info:before {
+  content: "\e90d";
+  color: #676879;
+}
+.icon-dark_mode:before {
+  content: "\e909";
+  color: #676879;
+}
+.icon-close:before {
+  content: "\e904";
+  color: #676879;
+}
+.icon-local_library:before {
+  content: "\e905";
+  color: #676879;
+}
+.icon-lock:before {
+  content: "\e906";
+  color: #676879;
+}
+.icon-logout:before {
+  content: "\e907";
+  color: #676879;
+}
+.icon-cleaning_services:before {
+  content: "\e908";
+  color: #676879;
+}
+.icon-expand_more:before {
+  content: "\e903";
+  color: #676879;
+}
+.icon-login-domain:before {
+  content: "\e900";
+  color: #676879;
+  font-size: 22px;
+}
+.icon-login-password:before {
+  content: "\e901";
+  color: #676879;
+}
+.icon-login-user:before {
+  content: "\e902";
+  color: #676879;
+}

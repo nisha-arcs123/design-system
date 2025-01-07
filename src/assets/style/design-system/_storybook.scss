@@ -1,0 +1,327 @@
+// Headings
+*{
+  box-sizing: border-box;
+}
+.sub-heading{
+  font-size: 20px;
+  line-height: 24px;
+}
+
+p{
+  font-size: 14px;
+}
+
+.sidebar-header{
+
+  .css-1ngr21r{
+    max-width: 112px;
+  }
+}
+
+.css-l8z9zc{
+  max-width: 112px !important;
+}
+
+#anchor--foundations--colors{
+
+  .docblock-code-toggle{
+    display: none;
+  }
+}
+
+.outer-color {
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .color-code {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+  }
+  .color-content{
+
+    h2{
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.box-outer-main {
+  display: inline-block;
+  width: 100%;
+
+  .box-border {
+    display: inline-block;
+    width: 100%;
+    border:1px solid #D0D4E4;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+}
+.common-heading {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 28px;
+}
+.typography-outer{
+  display: inline-block;
+  width: 100%;
+
+  table{
+    width: 100%;
+    text-align: left;
+
+    th{
+      padding: 20px 20px;
+    }
+    td{
+      padding: 20px 20px;
+    }
+  }
+}
+
+.box-border{
+  display: inline-block;
+  width: 100%;
+
+  ul{
+    display: inline-block;
+    width: 100%;
+
+    li{
+      display: inline-block;
+      width: auto;
+      vertical-align: top;
+      width: 30%;
+
+      .border-radius-outer{
+        display: inline-block;
+
+        .border-radius-box{
+          width: 200px;
+          height: 200px;
+          display: inline-block;
+          border: 1px solid #C3C6D4;
+        }
+      }
+
+      .border-radius-content{
+        display: inline-block;
+        width: 100%;
+
+        h4{
+          margin-top: 8px;
+          margin-bottom: 8px;
+        }
+
+        p{
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}
+
+.margin-size-box-outer{
+  display: inline-block;
+  width: auto;
+  margin: 32px 44px;
+
+  .margin-size-box{
+    display: inline-block;
+    width: 75px;
+    background-color: #F4C3CB;
+
+    &.margin-4{
+      height: 4px;
+    }
+
+    &.margin-8{
+      height: 8px;
+    }
+
+    &.margin-12{
+      height: 12px;
+    }
+
+    &.margin-16{
+      height: 16px;
+    }
+
+    &.margin-20{
+      height: 20px;
+    }
+
+    &.margin-24{
+      height: 24px;
+    }
+
+    &.margin-28{
+      height: 28px;
+    }
+
+    &.margin-32{
+      height: 32px;
+    }
+
+    &.margin-36{
+      height: 36px;
+    }
+
+    &.margin-40{
+      height: 40px;
+    }
+
+    &.margin-44{
+      height: 44px;
+    }
+
+    &.margin-48{
+      height: 48px;
+    }
+
+    &.margin-64{
+      height: 64px;
+    }
+  }
+}
+
+.shadow-outer{
+  display: inline-block;
+  width: 100%;
+
+  ul{
+    display: inline-block;
+    width: 100%;
+
+    li{
+      display: inline-block;
+      width: auto;
+      margin-right: 80px;
+
+      h4{
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+
+      p{
+        margin-bottom: 8px;
+      }
+
+      .box-shadow-small{
+        width: 200px;
+        height: 200px;
+        border-radius: $border-radius-small;
+        box-shadow: $box-shadow-small;
+      }
+
+      .box-shadow-medium{
+        width: 200px;
+        height: 200px;
+        border-radius: $border-radius-medium;
+        box-shadow: $box-shadow-medium;
+      }
+
+      .box-shadow-large{
+        width: 200px;
+        height: 200px;
+        border-radius: $border-radius-large;
+        box-shadow: $box-shadow-large;
+      }
+    }
+  }
+}
+
+.st-buttons-outer{
+
+  display: flex;
+  align-items: center;
+
+  button{
+    margin-right: 20px;
+  }
+}
+
+#story--forms-checks-radio--checkbox{
+
+  .checkbox-outer{
+    margin-bottom: 24px;
+  }
+}
+
+#story--forms-checks-radio--radio{
+
+  .radio-outer{
+    margin-bottom: 24px;
+  }
+}
+
+#anchor--grid--column-1,
+#anchor--grid--column-2,
+#anchor--grid--column-3,
+#anchor--grid--column-4,
+#anchor--grid--column-6
+{
+  div[class^="col"]{
+    border: 1px solid #C3C6D4;
+    height: 56px;
+  }
+}
+
+#story--badge--number{
+
+  .number-badge{
+    margin-right: 24px;
+  }
+}
+#story--badge--dot{
+
+  .bot-badge{
+    margin-right: 24px;
+  }
+}
+#story--badge--icon{
+
+  .icon-badge{
+    margin-right: 24px;
+  }
+}
+
+.icons-container{
+
+  span{
+    margin: 10px;
+  }
+}
+
+// text colors classes for storybook color show only
+
+.primary-text-color-bg{
+  background-color: #323238;
+}
+.secondary-text-color-bg{
+  background-color: #676879;
+}
+.text-color-on-inverted-bg{
+  background-color: #FFFFFF;
+}
+.text-color-on-primary-bg{
+  background-color: #FFFFFF;
+}
+.disabled-text-color-bg{
+  background-color: #C3C3CA;
+}
+.placeholder-color-bg{
+  background-color: #676879;
+}
+.link-color-bg{
+  background-color: #1F76C2;
+}
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+}

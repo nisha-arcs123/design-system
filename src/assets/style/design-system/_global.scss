@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+   font-family: $font_regular;
+}
+p {
+  margin-bottom: 0px !important;
+}
+.f_w{
+  float: left;
+  width: 100%;
+}
+

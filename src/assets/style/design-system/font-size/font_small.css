@@ -1,0 +1,30 @@
+:root {
+    --primary_heading: 28px;
+    --secondary_heading: 20px;
+    --tertiary_heading: 16px;
+    --fourth_heading: 16px;
+    --subtitle_1: 15px;
+    --subtitle_2: 13px;
+    --normal_xl: 16px;
+    --normal_l: 14px;
+    --normal_m: 13px;
+    --normal_s: 12px;
+
+    --label: 13px;
+    --link: 13px;
+
+    --caption_medium: 12px;
+    --caption_semibold: 12px;
+
+    --btn_s: 12px;
+    --btn_m: 13px;
+    --btn_l: 14px;
+    --btn_xl: 16px;
+
+    --icon_xl: 24px;
+    --icon_l: 22px;
+    --icon_m: 20px;
+    --icon_s: 18px;
+    --icon_vs: 16px;
+    --icon_vvs: 14px;
+  }
