@@ -30,7 +30,7 @@
   --primary_color_hover: #0060B9;
   --primary_color_selected: #CCE5FF;
   --primary_color_selected_hover: #AED4FC;
-  --positive_color: #258750;
+  --positive_color: #31D0AA;
   --positive_color_hover: #007038;
   --positive_color_selected: #BBDBC9;
   --positive_color_selected_hover: #B5CEC0;
@@ -551,14 +551,16 @@
 }
 .input-container label {
   margin-bottom: 8px;
+  margin-top: 26px;
 }
 .input-container .input-style {
-  font-size: var(--normal_m);
-  color: var(--primary_text_color);
-  border-radius: 4px;
-  border: 1px solid var(--layout_border);
-  height: 38px;
+  font-size: var(--normal_l);
+  color: var(--placeholder_color);
+  border-radius: 8px;
+  border: 1px solid var(--ui_border);
+  height: 48px;
   padding-left: 12px;
+  font-weight: 400;
 }
 .input-container .input-style:hover {
   border: 1px solid var(--input_hover);
@@ -586,10 +588,24 @@
 .input-container.error .alert {
   color: var(--negative_color);
 }
-.input-container.success .input-icon-container .input-style {
+.input-container .success .input-style {
   border: 1px solid var(--positive_color);
 }
-.input-container.success .alert {
+.input-container .success .input-style:hover {
+  border: 1px solid var(--positive_color);
+}
+.input-container .success .input-style:focus {
+  border: 1px solid var(--positive_color);
+  outline: none;
+}
+.input-container .success .style-2 {
+  background-color: #F4FFFC;
+}
+.input-container .success .style-3 {
+  border: none;
+  background-color: #F4FFFC;
+}
+.input-container .success .alert {
   color: var(--positive_color);
 }
 .input-container .input-divider {

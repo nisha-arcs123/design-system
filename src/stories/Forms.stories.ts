@@ -4,101 +4,150 @@ import { storiesOf } from '@storybook/angular';
   .add('Primary', () => ({
     template: `
     <div class="input-container f_w">
-      <label class="f_w"> Primary </label>
+      <label class="f_w"> Text field / Default </label>
       <div class="input-icon-container f_w">
-        <span class="left-icon"><img src="../assets/images/user.svg" /></span>
-        <input type="text" class="input-style f_w" placeholder="Email address"/>
+        <input type="text" class="input-style f_w" placeholder="Enter the text"/>
       </div>
-      <div class="input-divider f_w">
-        <span class="alert f_w"> Please enter valid email address </span>
+
+      <label class="f_w"> Text field / Default </label>
+      <div class="input-icon-container f_w">
+        <input type="text" class="input-style style-2 f_w" placeholder="Enter the text"/>
       </div>
+
+      <label class="f_w"> Text field / Default </label>
+      <div class="input-icon-container f_w">
+        <input type="text" class="input-style style-3 f_w" placeholder="Enter the text"/>
+      </div>
+    </div>
+    `
+  }))
+
+  .add('Input style', () => ({
+    template: `
+    <form>
+      <fieldset>
+        <legend class="f_w"> Text field / Default </legend>
+        <input type="text" class="input-style f_w" placeholder="Enter the text"/>
+      </fieldset>
+    <form>
+    <div class="input-container f_w">
+      <label class="f_w"> Text field / Default </label>
+      <div class="input-icon-container f_w">
+        <input type="text" class="input-style f_w" placeholder="Enter the text"/>
+      </div>
+
     </div>
     `
   }))
 
   .add('Success', () => ({
     template: `
-    <div class="input-container">
-      <label> Success </label>
-      <input type="text" class="common-input success" placeholder="Email address"/>
+    <div class="input-container f_w">
+      <label class="f_w"> Text field / Success</label>
+      <div class="input-icon-container success f_w">
+        <input type="text" class="input-style f_w" placeholder="Enter the text"/>
+      </div>
+
+      <label class="f_w"> Text field / Success</label>
+      <div class="input-icon-container success f_w">
+        <input type="text" class="input-style style-2 f_w" placeholder="Enter the text"/>
+        <span class="right-icon"><img src="../assets/images/Vector (12).svg" /></span>
+      </div>
+
+      <label class="f_w"> Text field / Success</label>
+      <div class="input-icon-container success f_w">
+        <input type="text" class="input-style style-3 f_w" placeholder="Enter the text"/>
+        <span class="right-icon"><img src="../assets/images/Vector (12).svg" /></span>
+      </div>
     </div>
     `
   }))
 
   .add('Error', () => ({
     template: `
-    <div class="input-container">
-      <label> Error </label>
-      <input type="text" class="common-input error" placeholder="Email address"/>
-      <span class="error-msg"> Please enter valid email address </span>
+     <div class="input-container f_w">
+      <label class="f_w"> Text field / Error</label>
+      <div class="input-icon-container error f_w">
+        <input type="text" class="input-style f_w" placeholder="Enter the text"/>
+      </div>
+
+      <label class="f_w"> Text field / Error</label>
+      <div class="input-icon-container error f_w">
+        <input type="text" class="input-style style-2 f_w" placeholder="Enter the text"/>
+        <span class="right-icon"><img src="../assets/images/Info Circle.svg" /></span>
+      </div>
+      <div class="input-divider f_w">
+          <span class="alert f_w"> Invalid characters </span>
+      </div>
+
+      <label class="f_w"> Text field / Error</label>
+      <div class="input-icon-container error f_w">
+        <input type="text" class="input-style style-3 f_w" placeholder="Enter the text"/>
+        <span class="right-icon"><img src="../assets/images/Union.svg" /></span>
+      </div>
     </div>
     `
   }))
 
   .add('Disabled', () => ({
     template: `
-    <div class="input-container">
-      <label> Disabled </label>
-      <input type="text" class="common-input" placeholder="Email address" disabled/>
+    <div class="input-container f_w">
+      <label class="f_w"> Text field / Disable </label>
+      <div class="input-icon-container disabled f_w">
+        <input type="text" class="input-style f_w common-input" placeholder="Enter the text" disabled/>
+      </div>
+
+      <label class="f_w"> Text field / Disable </label>
+      <div class="input-icon-container disabled f_w">
+        <input type="text" class="input-style style-3 f_w common-input" placeholder="Enter the text" disabled/>
+        <span class="right-icon"><img src="../assets/images/Ellipse 60.svg" /></span>
+      </div>
     </div>
     `
   }))
 
   .add('Sizes', () => ({
     template: `
-    <div class="input-container x-large">
-      <label> X-Large </label>
-      <input type="text" class="common-input x-large" placeholder="Email address"/>
-    </div>
-
-    <div class="input-container large">
-      <label> Large </label>
-      <input type="text" class="common-input large" placeholder="Email address"/>
-    </div>
-
-    <div class="input-container medium">
-      <label> Medium </label>
-      <input type="text" class="common-input" placeholder="Email address"/>
-    </div>
 
     <div class="input-container">
-      <label> Small </label>
-      <input type="text" class="common-input small" placeholder="Email address"/>
+      <label class="f_w">Text field / Default (24px)</label>
+      <input type="text" class="common-input x-small sizes input-style f_w" placeholder="Enter the text"/>
+    </div>
+    <div class="input-container">
+      <label class="f_w"> Text field / Default (28px) </label>
+      <input type="text" class="common-input small sizes input-style f_w" placeholder="Enter the text"/>
+    </div>
+     <div class="input-container medium">
+      <label class="f_w"> Text field / Default (32px) </label>
+      <input type="text" class="common-input medium sizes input-style f_w" placeholder="Enter the text"/>
+    </div>
+    <div class="input-container large">
+      <label class="f_w"> Text field / Default (38px) </label>
+      <input type="text" class="common-input large sizes input-style f_w" placeholder="Enter the text"/>
+    </div>
+    <div class="input-container x-large">
+      <label class="f_w"> Text field / Default (42px)</label>
+      <input type="text" class="common-input x-large sizes input-style f_w" placeholder="Enter the text"/>
+    </div>
+    <div class="input-container xx-large">
+      <label class="f_w"> Text field / Default (28px) </label>
+      <input type="text" class="common-input xx-large sizes input-style f_w" placeholder="Enter the text"/>
     </div>
     `
   }))
 
   .add('With Icons', () => ({
     template: `
-    <div class="input-container icon-x-large">
-      <label> X-Large </label>
-      <div class="input-icon-outer">
-        <span class="icon icon-login-user"></span>
-        <input type="text" class="common-input x-large" placeholder="Email address"/>
+    <div class="input-container f_w">
+      <label class="f_w"> Text field / Disable </label>
+      <div class="input-icon-container disabled f_w">
+        <input type="text" class="input-style f_w common-input" placeholder="Enter the text" disabled/>
       </div>
-    </div>
 
-    <div class="input-container icon-large">
-      <label> Large </label>
-      <div class="input-icon-outer">
-        <span class="icon icon-login-user"></span>
-        <input type="text" class="common-input large" placeholder="Email address"/>
-      </div>
-    </div>
-
-    <div class="input-container icon-medium">
-      <label> Medium </label>
-      <div class="input-icon-outer">
-        <span class="icon icon-login-user"></span>
-        <input type="text" class="common-input" placeholder="Email address"/>
-      </div>
-    </div>
-
-    <div class="input-container icon-small">
-      <label> Small </label>
-      <div class="input-icon-outer">
-        <span class="icon icon-login-user"></span>
-        <input type="text" class="common-input small" placeholder="Email address"/>
+      <label class="f_w"> Text field / Disable </label>
+      <div class="input-icon-container disabled f_w">
+        <input type="text" class="input-style style-3 f_w common-input" placeholder="Enter the text" disabled/>
+        <span class="right-icon"><img src="../assets/images/Ellipse 60.svg" /></span>
       </div>
     </div>
     `

@@ -4,16 +4,17 @@
 
     label{
         margin-bottom: 8px;
+        margin-top: 26px;
     }
 
     .input-style{
-        font-size: var(--normal_m);
-        color: var(--primary_text_color);
-        border-radius: $border_radius_small;
-        border: 1px solid var(--layout_border);
-        height: $h_38px;
+        font-size: var(--normal_l);
+        color: var(--placeholder_color);
+        border-radius:$border_radius_medium;
+        border: 1px solid var(--ui_border);
+        height: $h_48px;
         padding-left: 12px;
-
+        font-weight: 400;
         &:hover{
             border: 1px solid var(--input_hover);
         }
@@ -46,11 +47,23 @@
             color: var(--negative_color);
         }
     }
-    &.success{
-        .input-icon-container{
-            .input-style{
+    .success{
+        .input-style{
+            border: 1px solid var(--positive_color);
+            &:hover{
                 border: 1px solid var(--positive_color);
-            }   
+            }
+            &:focus{
+                border: 1px solid var(--positive_color);
+                outline: none;
+            }
+        }
+        .style-2{
+            background-color: #F4FFFC;
+        }
+        .style-3{
+            border: none;
+            background-color: #F4FFFC;
         }
         .alert{
             color: var(--positive_color);

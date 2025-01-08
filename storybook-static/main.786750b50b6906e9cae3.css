@@ -31,7 +31,7 @@
   --primary_color_hover: #0060B9;
   --primary_color_selected: #CCE5FF;
   --primary_color_selected_hover: #AED4FC;
-  --positive_color: #258750;
+  --positive_color: #31D0AA;
   --positive_color_hover: #007038;
   --positive_color_selected: #BBDBC9;
   --positive_color_selected_hover: #B5CEC0;
@@ -54,10 +54,10 @@
   --icon_color_secondary: #A3ADBA;
   --fixed_light_color: #FFFFFF;
   --fixed_dark_color: #323338;
-  --primary_text_color: #323238;
+  --primary_text_color: #767676;
   --secondary_text_color: #676879;
   --disabled_text_color: #C3C3CA;
-  --placeholder_color: #676879;
+  --placeholder_color: #C3C6D4;
   --link_color: #1F76C2;
   --fixed_dark_text: #323238;
   --fixed_light_text: #FFFFFF;
@@ -72,7 +72,7 @@
   --ui_border: #C3C6D4;
   --layout_border: #D0D4E4;
   --light_border: #F0F1F3;
-  --input_hover: #323238;
+  --input_hover: #8C8CA1;
   --avatar_bg_1: #C95C76;
   --avatar_bg_2: #339ECD;
   --avatar_bg_3: #6645A9;

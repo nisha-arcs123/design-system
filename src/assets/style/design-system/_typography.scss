@@ -54,11 +54,11 @@ $font_black: 'robotoblack';
   // }
 }
 
-.label, label{
+.label, label,legend{
   font-family: $font_medium;
   font-size: var(--label);
   color: var(--primary_text_color);
-
+  font-weight: 400;
   // @include breakpoint(lg){
   //   font-size: 13px !important;
   //   line-height: 18px !important;

@@ -4,12 +4,12 @@
     --primary_color_selected: #E7CFDC;
     --primary_color_selected_hover: #DBB7CA;
 
-    --positive_color: #258750;
+    --positive_color: #31D0AA;
     --positive_color_hover: #007038;
     --positive_color_selected: #BBDBC9;
     --positive_color_selected_hover: #B5CEC0;
 
-    --negative_color: #D83A52;
+    --negative_color: #ED4B4D;
     --negative_color_hover: #B63546;
     --negative_color_selected: #F4C3CB;
     --negative_color_selected_hover: #ECB7BF;
@@ -37,10 +37,10 @@
 
 
 
-    --primary_text_color: #323238;
+    --primary_text_color: #767676;
     --secondary_text_color: #676879;
     --disabled_text_color: #C3C3CA;
-    --placeholder_color: #676879;
+    --placeholder_color: #C3C6D4;
     --link_color: #1F76C2;
     --fixed_dark_text: #323238;
     --fixed_light_text: #FFFFFF;
@@ -62,7 +62,7 @@
     --ui_border_color: #C3C6D4;
     --layout_border_color: #D0D4E4;
     --light_border: #F0F1F3;
-    --input_hover_color: #323238;
+    --input_hover_color: #8C8CA1;
 
 
 
