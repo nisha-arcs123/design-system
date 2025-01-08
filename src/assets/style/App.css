@@ -553,6 +553,53 @@
   margin-bottom: 5px;
   margin-top: 26px;
 }
+.input-container .fieldset-div {
+  font-size: var(--normal_l);
+  border-radius: 8px;
+  color: #0E0E2C;
+  border: 1px solid var(--ui_border);
+  height: 54px;
+  padding-left: 17px;
+  font-weight: 400;
+}
+.input-container .fieldset-div .input-style {
+  color: #C3C6D4;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 0;
+  height: auto;
+  border: none;
+  top: 22px;
+  position: absolute;
+}
+.input-container .fieldset-div .input-style:hover {
+  border: none;
+}
+.input-container .fieldset-div .input-style:focus {
+  border: none;
+  outline: none;
+}
+.input-container .file-input-outer {
+  display: flex;
+  font-size: var(--normal_l);
+  border-radius: 8px;
+  color: #0E0E2C;
+  border: 1px solid var(--ui_border);
+  height: 48px;
+  padding-left: 17px;
+  padding-top: 12px;
+  font-weight: 400;
+}
+.input-container .file-input-outer .file-input {
+  padding-left: 28px;
+}
+.input-container .file-input-outer .file-input-inner {
+  background-color: #3537EB;
+  color: #FFFFFF;
+}
+.input-container .file-input-outer .file-input-inner p {
+  margin: 0;
+}
 .input-container .input-style {
   font-size: var(--normal_l);
   border-radius: 8px;
@@ -577,6 +624,17 @@
 }
 .input-container .input-icon-container {
   position: relative;
+}
+.input-container .input-icon-container .left-icon {
+  position: absolute;
+  left: 12px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  height: var(--icon_m);
+}
+.input-container .input-icon-container .left-icon img {
+  width: var(--icon_m);
 }
 .input-container .input-icon-container .right-icon {
   position: absolute;
@@ -687,8 +745,43 @@
   border-radius: 8px;
 }
 .input-container .sizes.xx-large {
-  height: 42px;
+  height: 48px;
   border-radius: 8px;
+}
+.input-container .input-sizes {
+  border: none;
+  border-bottom: 1px solid var(--ui_border);
+  border-radius: 0px;
+}
+.input-container .input-sizes.x-small-input {
+  height: 28px;
+  font-size: var(--normal_s);
+}
+.input-container .input-sizes.small-input {
+  height: 32px;
+  font-size: var(--normal_s);
+}
+.input-container .input-sizes.medium-input {
+  height: 38px;
+}
+.input-container .input-sizes.large-input {
+  height: 42px;
+}
+.input-container .input-sizes.x-large-input {
+  height: 48px;
+  font-size: var(--normal_xl);
+}
+.input-container .input-sizes:hover {
+  border: none;
+  border-bottom: 1px solid var(--ui_border);
+}
+.input-container .input-sizes:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--ui_border);
+}
+.input-container .icons-input .input-style {
+  padding-left: 48px;
 }
 .input-container .input-divider {
   height: 24px;
