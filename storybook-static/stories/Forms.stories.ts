@@ -173,3 +173,22 @@ import { storiesOf } from '@storybook/angular';
     </div>
     `
   }))
+
+
+
+  storiesOf('Forms / Buttons', module)
+
+  .add('Primary', () => ({
+    template: `
+    <div class="input-container f_w">
+      <label class="f_w"> Primary </label>
+      <div class="input-icon-container f_w">
+        <span class="left-icon"><img src="../assets/images/user.svg" /></span>
+        <input type="text" class="input-style f_w" placeholder="Email address"/>
+      </div>
+      <div class="input-divider f_w">
+        <span class="alert f_w"> Please enter valid email address </span>
+      </div>
+    </div>
+    `
+  }))

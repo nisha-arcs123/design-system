@@ -556,14 +556,14 @@
 .input-container .fieldset-div {
   font-size: var(--normal_l);
   border-radius: 8px;
-  color: #0E0E2C;
+  color: #0e0e2c;
   border: 1px solid var(--ui_border);
   height: 54px;
   padding-left: 17px;
   font-weight: 400;
 }
 .input-container .fieldset-div .input-style {
-  color: #C3C6D4;
+  color: #c3c6d4;
   font-size: 14px;
   font-weight: 400;
   padding-left: 0;
@@ -583,7 +583,7 @@
   display: flex;
   font-size: var(--normal_l);
   border-radius: 8px;
-  color: #0E0E2C;
+  color: #0e0e2c;
   border: 1px solid var(--ui_border);
   height: 48px;
   padding-left: 17px;
@@ -594,8 +594,8 @@
   padding-left: 28px;
 }
 .input-container .file-input-outer .file-input-inner {
-  background-color: #3537EB;
-  color: #FFFFFF;
+  background-color: #3537eb;
+  color: #ffffff;
 }
 .input-container .file-input-outer .file-input-inner p {
   margin: 0;
@@ -603,7 +603,7 @@
 .input-container .input-style {
   font-size: var(--normal_l);
   border-radius: 8px;
-  color: #0E0E2C;
+  color: #0e0e2c;
   border: 1px solid var(--ui_border);
   height: 48px;
   padding-left: 17px;
@@ -648,10 +648,10 @@
   width: var(--icon_m);
 }
 .input-container .input-icon-container .style-2 {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 .input-container .input-icon-container .style-3 {
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 .input-container .style-3 {
   border: none;
@@ -674,10 +674,10 @@
   outline: none;
 }
 .input-container .success .style-2 {
-  background-color: #F4FFFC;
+  background-color: #f4fffc;
 }
 .input-container .success .style-3 {
-  background-color: #F4FFFC;
+  background-color: #f4fffc;
   border: none;
 }
 .input-container .success .style-3:hover {
@@ -698,12 +698,12 @@
   outline: none;
 }
 .input-container .error .style-2 {
-  background-color: #FFF7F4;
+  background-color: #fff7f4;
 }
 .input-container .error .style-3 {
   border: none;
   outline: none;
-  background-color: #FFF7F4;
+  background-color: #fff7f4;
 }
 .input-container .error .style-3:hover {
   border: none;
@@ -713,16 +713,16 @@
   border: none;
 }
 .input-container .alert {
-  color: #ED4B4D;
+  color: #ed4b4d;
   font-size: var(--normal_l);
   font-weight: 400;
   margin-top: 8px;
 }
 .input-container .disabled .input-style {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .input-container .disabled .style-3 {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 .input-container .sizes.x-small {
   height: 24px;
@@ -791,6 +791,117 @@
 }
 
 /**********************input**************************/
+.button-container .btn {
+  border-radius: 8px;
+  border: none;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.button-container .btn.primary-btn {
+  background-color: #3537eb;
+  color: #ffffff;
+}
+.button-container .btn.secondary-btn {
+  background-color: #f6f7ff;
+  border: 1px solid #c3c6d4;
+  color: #262626;
+}
+.button-container .btn.tertiary-btn {
+  background-color: #ffffff;
+  border: 1px solid #c3c6d4;
+  color: #262626;
+}
+.button-container .btn.secondary-btn2 {
+  background-color: #f0f0f0;
+  border: 1px solid #c3c6d4;
+  color: #262626;
+}
+.button-container .btn.destructive-btn {
+  background-color: #fff7f4;
+  border: 1px solid #ed4b4d;
+  color: #ed4b4d;
+}
+.button-container .btn-content {
+  margin-top: 28px;
+  border-radius: 8px;
+  height: 48px;
+}
+.button-container .btn-content .grp-btn,
+.button-container .btn-content .grp-btn2 {
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border: none;
+}
+.button-container .btn-content .grp-btn.primary-btn,
+.button-container .btn-content .grp-btn2.primary-btn {
+  color: #ffffff;
+  width: 30%;
+  background-color: transparent;
+}
+.button-container .btn-content .grp-btn.secondary-btn,
+.button-container .btn-content .grp-btn2.secondary-btn {
+  background-color: #f6f7ff;
+  color: #262626;
+  width: 30%;
+}
+.button-container .btn-content .grp-btn.tertiary-btn,
+.button-container .btn-content .grp-btn2.tertiary-btn {
+  color: #262626;
+  width: 30%;
+  border-radius: 8px;
+  height: 48px;
+}
+.button-container .btn-content .grp-btn.secondary-btn2,
+.button-container .btn-content .grp-btn2.secondary-btn2 {
+  background-color: #f0f0f0;
+  color: #262626;
+  width: 30%;
+}
+.button-container .btn-content .grp-btn.destructive-btn,
+.button-container .btn-content .grp-btn2.destructive-btn {
+  background-color: #fff7f4;
+  color: #ed4b4d;
+  width: 30%;
+}
+.button-container .primary {
+  background-color: #3537eb;
+}
+.button-container .secondary {
+  background-color: #f6f7ff;
+}
+.button-container .tertiary {
+  background-color: #ffffff;
+}
+.button-container .secondary2 {
+  background-color: #f0f0f0;
+}
+.button-container .destructive {
+  background-color: #fff7f4;
+}
+
+.tables-container .primary-table {
+  border: 1px solid black;
+  padding: 30px;
+}
+.tables-container .primary-table thead {
+  font-size: 32px;
+}
+.tables-container .primary-table tr {
+  border-bottom: 1px solid black;
+}
+.tables-container .primary-table tr th {
+  width: 30%;
+}
+.tables-container .primary-table tr td {
+  width: 40%;
+}
+
 @font-face {
   font-family: "robotoblack";
   src: url("../../fonts/roboto-black-webfont.woff2") format("woff2"), url("../../fonts/roboto-black-webfont.woff") format("woff");

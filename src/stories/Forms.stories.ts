@@ -1,6 +1,5 @@
 import { storiesOf } from '@storybook/angular';
  storiesOf('Forms / Inputs', module)
-
   .add('Primary', () => ({
     template: `
     <div class="input-container f_w">
@@ -208,18 +207,168 @@ import { storiesOf } from '@storybook/angular';
     `
   }))
 
-  // .add('Line Input Sizes', () => ({
-  //   template: `
-  //   <div class="input-container">
-  //     <input type="text" class="line-input" placeholder="Large"/>
-  //   </div>
+// Buttons sections
 
-  //   <div class="input-container">
-  //     <input type="text" class="line-input medium" placeholder="Medium"/>
-  //   </div>
+  storiesOf('Forms / Buttons', module)
 
-  //   <div class="input-container">
-  //     <input type="text" class="line-input small" placeholder="Small"/>
-  //   </div>
-  //   `
-  // }))
+  .add('Primary Button', () => ({
+    template: `
+    <div class="button-container f_w">
+      <label class="f_w"> Primary Button </label>
+      <button class="primary-btn btn f_w">Create new user</button>
+    </div>
+    `
+  }))
+
+
+  .add('Secondary Button', () => ({
+    template: `
+    <div class="button-container f_w">
+      <label class="f_w"> Secondary Button </label>
+      <button class="secondary-btn btn f_w">Create new user</button>
+    </div>
+    `
+  }))
+
+  .add('Tertiary Button', () => ({
+    template: `
+    <div class="button-container f_w">
+      <label class="f_w"> Tertiary Button</label>
+      <button class="tertiary-btn btn f_w">Create new user</button>
+    </div>
+    `
+  }))
+
+  .add('Secondary Button2', () => ({
+    template: `
+    <div class="button-container f_w">
+      <label class="f_w"> Secondary Button 2 </label>
+      <button class="secondary-btn2 btn f_w">Create new user</button>
+    </div>
+    `
+  }))
+
+  .add('Destructive Button', () => ({
+    template: `
+    <div class="button-container f_w">
+      <label class="f_w"> Destructive Button </label>
+      <button class="destructive-btn btn f_w">Create new user</button>
+    </div>
+    `
+  }))
+
+  // Button groups
+
+
+  storiesOf('Forms / Buttons Groups', module)
+
+  .add('Primary Button', () => ({
+    template: `
+    <div class="button-container f_w">
+      <label class="f_w"> Primary Button </label>
+      <div class="btn-content primary">
+        <button class="primary-btn grp-btn">Create new user</button>
+        <button class="primary-btn grp-btn2">Create new user</button>
+        <button class="primary-btn grp-btn">Create new user</button>
+      </div>
+    </div>
+    `
+  }))
+
+
+  .add('Secondary Button', () => ({
+    template: `
+    <div class="button-container f_w">
+      <label class="f_w"> Secondary Button </label>
+      <div class="btn-content secondary">
+        <button class="secondary-btn grp-btn">Create new user</button>
+        <button class="secondary-btn grp-btn2">Create new user</button>
+        <button class="secondary-btn grp-btn">Create new user</button>
+      </div>
+      
+    </div>
+    `
+  }))
+
+  .add('Tertiary Button', () => ({
+    template: `
+    <div class="button-container f_w">
+      <label class="f_w"> Tertiary Button </label>
+      <div class="btn-content tertiary"> 
+        <button class="tertiary-btn grp-btn">Create new user</button>
+        <button class="tertiary-btn grp-btn2">Create new user</button>
+        <button class="tertiary-btn grp-btn">Create new user</button>
+      </div>
+     
+    </div>
+    `
+  }))
+
+  .add('Secondary Button2', () => ({
+    template: `
+    <div class="button-container f_w">
+      <label class="f_w"> Secondary Button 2 </label>
+      <div class="btn-content secondary2"> 
+        <button class="secondary-btn2 grp-btn">Create new user</button>
+        <button class="secondary-btn2 grp-btn2">Create new user</button>
+        <button class="secondary-btn2 grp-btn">Create new user</button>
+      </div>
+     
+    </div>
+    `
+  }))
+
+  .add('Destructive Button', () => ({
+    template: `
+    <div class="button-container f_w">
+      <label class="f_w"> Destructive Button </label>
+      <div class="btn-content destructive">
+        <button class="destructive-btn grp-btn">Create new user</button>
+        <button class="destructive-btn grp-btn2">Create new user</button>
+        <button class="destructive-btn grp-btn">Create new user</button>
+      </div>
+      
+    </div>
+    `
+  }))
+
+
+  // Tables
+
+
+
+
+  storiesOf('Forms / Tables', module)
+
+  .add('Primary Table', () => ({
+    template: `
+    <div class="tables-container f_w">
+      <table class="primary-table f_w">
+          <tr class="f_w">
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+          <tr class="f_w">
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr class="f_w">
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr class="f_w">
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+      </table>
+    </div>
+    `
+  }))
+

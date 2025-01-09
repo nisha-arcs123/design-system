@@ -1,262 +1,375 @@
 /**********************input**************************/
-.input-container{
+.input-container {
+  position: relative;
+
+  label {
+    margin-bottom: 5px;
+    margin-top: 26px;
+  }
+  .fieldset-div {
+    font-size: var(--normal_l);
+    border-radius: $border_radius_medium;
+    color: #0e0e2c;
+    border: 1px solid var(--ui_border);
+    height: $h_54px;
+    padding-left: 17px;
+    font-weight: 400;
+    .input-style {
+      color: #c3c6d4;
+      font-size: 14px;
+      font-weight: 400;
+      padding-left: 0;
+      height: auto;
+      border: none;
+      top: 22px;
+      position: absolute;
+      &:hover {
+        border: none;
+      }
+      &:focus {
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .file-input-outer {
+    display: flex;
+    font-size: var(--normal_l);
+    border-radius: $border_radius_medium;
+    color: #0e0e2c;
+    border: 1px solid var(--ui_border);
+    height: $h_48px;
+    padding-left: 17px;
+    padding-top: 12px;
+    font-weight: 400;
+    .file-input {
+      padding-left: 28px;
+    }
+    .file-input-inner {
+      background-color: #3537eb;
+      color: #ffffff;
+      p {
+        margin: 0;
+      }
+    }
+  }
+  .input-style {
+    font-size: var(--normal_l);
+    border-radius: $border_radius_medium;
+    color: #0e0e2c;
+    border: 1px solid var(--ui_border);
+    height: $h_48px;
+    padding-left: 17px;
+    font-weight: 400;
+    &:hover {
+      border: 1px solid var(--input_hover);
+    }
+    &:focus {
+      border: 1px solid var(--input_hover);
+      outline: none;
+    }
+
+    &::placeholder {
+      color: var(--placeholder_color);
+    }
+  }
+
+  .input-icon-container {
+    .left-icon {
+      position: absolute;
+      left: 12px;
+      top: 0px;
+      bottom: 0px;
+      margin: auto;
+      height: var(--icon_m);
+      img {
+        width: var(--icon_m);
+      }
+    }
     position: relative;
+    .right-icon {
+      position: absolute;
+      right: 12px;
+      top: 0px;
+      bottom: 0px;
+      margin: auto;
+      height: var(--icon_m);
+      img {
+        width: var(--icon_m);
+      }
+    }
+    .style-2 {
+      background-color: #f4f4f4;
+    }
+    .style-3 {
+      background-color: #f4f4f4;
+    }
+  }
+  .style-3 {
+    border: none;
+    &:hover {
+      border: none;
+    }
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
+  .success {
+    .input-style {
+      border: 1px solid var(--positive_color);
+      &:hover {
+        border: 1px solid var(--positive_color_hover);
+      }
+      &:focus {
+        border: 1px solid var(--positive_color_hover);
+        outline: none;
+      }
+    }
 
-    label{
-        margin-bottom: 5px;
-        margin-top: 26px;
+    .style-2 {
+      background-color: #f4fffc;
     }
-    .fieldset-div{
-        font-size: var(--normal_l);
-        border-radius:$border_radius_medium;
-        color: #0E0E2C;
-        border: 1px solid var(--ui_border);
-        height: $h_54px;
-        padding-left: 17px;
-        font-weight: 400;
-        .input-style{
-            color: #C3C6D4;
-            font-size: 14px;
-            font-weight: 400;
-            padding-left: 0;
-            height: auto;
-            border: none;
-            top: 22px;
-            position: absolute;
-            &:hover{
-                border: none;
-            }
-            &:focus{
-                border: none;
-                outline: none;
-            }
-        }
-    }
-    .file-input-outer{
-        display: flex;
-        font-size: var(--normal_l);
-        border-radius:$border_radius_medium;
-        color: #0E0E2C;
-        border: 1px solid var(--ui_border);
-        height: $h_48px;
-        padding-left: 17px;
-        padding-top: 12px;
-        font-weight: 400;
-        .file-input{
-            padding-left: 28px;
-        }
-        .file-input-inner{
-            background-color: #3537EB;
-            color: #FFFFFF;
-            p{
-                margin: 0;
-            }
-        }
-    }
-    .input-style{
-        font-size: var(--normal_l);
-        border-radius:$border_radius_medium;
-        color: #0E0E2C;
-        border: 1px solid var(--ui_border);
-        height: $h_48px;
-        padding-left: 17px;
-        font-weight: 400;
-        &:hover{
-            border: 1px solid var(--input_hover);
-        }
-        &:focus{
-            border: 1px solid var(--input_hover);
-            outline: none;
-        }
-
-        &::placeholder{
-            color:var(--placeholder_color) ;
-        }
-    }
-    
-    .input-icon-container{
-        .left-icon{
-            position: absolute;
-            left: 12px;
-            top: 0px;
-            bottom: 0px;
-            margin: auto;
-            height: var(--icon_m);
-            img{
-                width: var(--icon_m);
-            }
-        }
-        position: relative;
-        .right-icon{
-            position: absolute;
-            right: 12px;
-            top:0px;
-            bottom: 0px;
-            margin: auto;
-            height: var(--icon_m);
-            img{
-                width: var(--icon_m);
-            }
-        }
-        .style-2{
-            background-color: #F4F4F4;
-        }
-        .style-3{
-            background-color: #F4F4F4;
-        }
-    }
-    .style-3{
+    .style-3 {
+      background-color: #f4fffc;
+      border: none;
+      &:hover {
         border: none;
-        &:hover{
-            border: none;
-        }
-        &:focus{
-            outline: none;
-            border: none;
-        }
-    }
-    .success{
-        .input-style{
-            border: 1px solid var(--positive_color);
-            &:hover{
-                border: 1px solid var(--positive_color_hover);
-            }
-            &:focus{
-                border: 1px solid var(--positive_color_hover);
-                outline: none;
-            }
-        }
-       
-        
-        .style-2{
-            background-color: #F4FFFC;
-        }
-        .style-3{
-            background-color: #F4FFFC;
-            border: none;
-            &:hover{
-                border: none;
-            }
-            &:focus{
-                outline: none;
-                border: none;
-            }
-        }
-    }
-    .error{
-        .input-style{
-            border: 1px solid var(--negative_color);
-            &:hover{
-                border: 1px solid var(--negative_color_hover);
-            }
-            &:focus{
-                border: 1px solid var(--negative_color_hover);
-                outline: none;
-            }
-        }
-        .style-2{
-            background-color: #FFF7F4;
-        }
-        .style-3{
-            border: none;
-            outline: none;
-            background-color: #FFF7F4;
-            &:hover{
-                border: none;
-            }
-            &:focus{
-                outline: none;
-                border: none;
-            }
-        }
-    }
-    .alert{
-        color: #ED4B4D;
-        font-size: var(--normal_l);
-        font-weight: 400;
-        margin-top: 8px;
-    }
-    .disabled{
-        .input-style{
-            background-color: #FFFFFF;
-        }
-        .style-3{
-            background-color: #F5F5F5;
-        }
-    }
-
-    .sizes{
-        &.x-small{
-            height:$h_24px;
-            border-radius: $border_radius_small;
-        }
-        &.small{
-            height: $h_28px;
-            border-radius: $border_radius_small;
-        }
-        &.medium{
-            height: $h_32px;
-            border-radius: $border_radius_small;
-        }
-        &.large{
-            height:$h_38px;
-            border-radius: $border_radius_medium;
-        }
-        &.x-large{
-            height: $h_42px;
-            border-radius: $border_radius_medium;
-        }
-        &.xx-large{
-            height: $h_48px;
-            border-radius: $border_radius_medium;
-        }
-    }
-
-    .input-sizes{
+      }
+      &:focus {
+        outline: none;
         border: none;
-        border-bottom: 1px solid var(--ui_border);
-        border-radius: 0px;
-        &.x-small-input{
-            height:$h_28px;
-            font-size: var(--normal_s);
-        }
-        &.small-input{
-            height: $h_32px;
-            font-size: var(--normal_s);
-        }
-        &.medium-input{
-            height: $h_38px;
-        }
-        &.large-input{
-            height:$h_42px;
-        }
-        &.x-large-input{
-            height: $h_48px;
-            font-size: var(--normal_xl);
-        }
+      }
+    }
+  }
+  .error {
+    .input-style {
+      border: 1px solid var(--negative_color);
+      &:hover {
+        border: 1px solid var(--negative_color_hover);
+      }
+      &:focus {
+        border: 1px solid var(--negative_color_hover);
+        outline: none;
+      }
+    }
+    .style-2 {
+      background-color: #fff7f4;
+    }
+    .style-3 {
+      border: none;
+      outline: none;
+      background-color: #fff7f4;
+      &:hover {
+        border: none;
+      }
+      &:focus {
+        outline: none;
+        border: none;
+      }
+    }
+  }
+  .alert {
+    color: #ed4b4d;
+    font-size: var(--normal_l);
+    font-weight: 400;
+    margin-top: 8px;
+  }
+  .disabled {
+    .input-style {
+      background-color: #ffffff;
+    }
+    .style-3 {
+      background-color: #f5f5f5;
+    }
+  }
 
-        &:hover{
-            border: none;
-            border-bottom: 1px solid var(--ui_border);
-        }
-        &:focus{
-            outline: none;
-            border: none;
-            border-bottom: 1px solid var(--ui_border);
-        }
+  .sizes {
+    &.x-small {
+      height: $h_24px;
+      border-radius: $border_radius_small;
     }
-    .icons-input{
-        .input-style{
-            padding-left: 48px;
-        }
+    &.small {
+      height: $h_28px;
+      border-radius: $border_radius_small;
     }
-    .input-divider{
-        height: $h_24px;
+    &.medium {
+      height: $h_32px;
+      border-radius: $border_radius_small;
     }
-    .alert {
-        font-size: var(--normal_s);
+    &.large {
+      height: $h_38px;
+      border-radius: $border_radius_medium;
+    }
+    &.x-large {
+      height: $h_42px;
+      border-radius: $border_radius_medium;
+    }
+    &.xx-large {
+      height: $h_48px;
+      border-radius: $border_radius_medium;
+    }
+  }
+
+  .input-sizes {
+    border: none;
+    border-bottom: 1px solid var(--ui_border);
+    border-radius: 0px;
+    &.x-small-input {
+      height: $h_28px;
+      font-size: var(--normal_s);
+    }
+    &.small-input {
+      height: $h_32px;
+      font-size: var(--normal_s);
+    }
+    &.medium-input {
+      height: $h_38px;
+    }
+    &.large-input {
+      height: $h_42px;
+    }
+    &.x-large-input {
+      height: $h_48px;
+      font-size: var(--normal_xl);
     }
 
+    &:hover {
+      border: none;
+      border-bottom: 1px solid var(--ui_border);
+    }
+    &:focus {
+      outline: none;
+      border: none;
+      border-bottom: 1px solid var(--ui_border);
+    }
+  }
+  .icons-input {
+    .input-style {
+      padding-left: 48px;
+    }
+  }
+  .input-divider {
+    height: $h_24px;
+  }
+  .alert {
+    font-size: var(--normal_s);
+  }
 }
 
 /**********************input**************************/
+
+// button start
+
+.button-container {
+  .btn {
+    border-radius: 8px;
+    border: none;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    &.primary-btn {
+      background-color: #3537eb;
+      color: #ffffff;
+    }
+    &.secondary-btn {
+      background-color: #f6f7ff;
+      border: 1px solid #c3c6d4;
+      color: #262626;
+    }
+    &.tertiary-btn {
+      background-color: #ffffff;
+      border: 1px solid #c3c6d4;
+      color: #262626;
+    }
+    &.secondary-btn2 {
+      background-color: #f0f0f0;
+      border: 1px solid #c3c6d4;
+      color: #262626;
+    }
+    &.destructive-btn {
+      background-color: #fff7f4;
+      border: 1px solid #ed4b4d;
+      color: #ed4b4d;
+    }
+  }
+
+  .btn-content {
+    margin-top: 28px;
+    border-radius: 8px;
+    height: 48px;
+    .grp-btn,
+    .grp-btn2 {
+      border: none;
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      border: none;
+
+      &.primary-btn {
+        color: #ffffff;
+        width: 30%;
+        background-color: transparent;
+      }
+      &.secondary-btn {
+        background-color: #f6f7ff;
+        color: #262626;
+        width: 30%;
+      }
+      &.tertiary-btn {
+        color: #262626;
+        width: 30%;
+        border-radius: 8px;
+        height: 48px;
+      }
+      &.secondary-btn2 {
+        background-color: #f0f0f0;
+        color: #262626;
+        width: 30%;
+      }
+      &.destructive-btn {
+        background-color: #fff7f4;
+        color: #ed4b4d;
+        width: 30%;
+      }
+    }
+  }
+  .primary {
+    background-color: #3537eb;
+  }
+  .secondary{
+    background-color: #f6f7ff;
+  }
+  .tertiary{
+    background-color: #ffffff;
+    
+  }
+  .secondary2{
+    background-color: #f0f0f0;
+  }
+  .destructive{
+    background-color: #fff7f4;
+  }
+}
+
+.tables-container{
+    .primary-table{
+        border: 1px solid black;
+        padding: 30px;
+        thead{
+            font-size: 32px;
+        }
+        tr{
+            border-bottom: 1px solid black;
+            th{
+                width: 30%;
+            }
+            td{
+                width: 40%;
+            }
+        }
+    }
+}
